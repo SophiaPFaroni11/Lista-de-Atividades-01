@@ -2,9 +2,9 @@
 int numero1;
 int numero2;
 int suporte;
-Console.WriteLine("Diite o valor de A:");
+Console.WriteLine("Digite o valor de A:");
 numero1 = int.Parse(Console.ReadLine());
-Console.WriteLine("Diite o valor de B:");
+Console.WriteLine("Digite o valor de B:");
 numero2 = int.Parse(Console.ReadLine());
 suporte = numero1;
 numero1 = numero2;
