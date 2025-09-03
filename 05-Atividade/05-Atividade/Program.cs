@@ -1,10 +1,19 @@
 ﻿// See https://aka.ms/new-console-template for more information
-int anos;
-int dias;
-Console.WriteLine("Digite quantos anos você tem:");
-anos = int.Parse(Console.ReadLine());
-Console.WriteLine("Digite quantos dias atrás foi seu aniversário:");
-dias = int.Parse(Console.ReadLine());
-Console.WriteLine($"Você tem {anos*365+dias} de vida");
+int eleitores;
+int votoBranco;
+int nulo;
+int validos;
+Console.WriteLine("Digite quantos eleitores tiveram:");
+eleitores = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite quantos votos em branco tiveram:");
+votoBranco = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite quantos votos nulos tiveram:");
+nulo = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite quantos votos válidos tiveram:");
+validos = int.Parse(Console.ReadLine());
+Console.WriteLine($"Do total de {eleitores} eleitores: {votoBranco*100/eleitores}% foram em branco");
+Console.WriteLine($"Do total de {eleitores} eleitores: {nulo * 100 / eleitores}% foram nulo");
+Console.WriteLine($"Do total de {eleitores} eleitores: {validos * 100 / eleitores}% foram em válidos");
+
 
 
