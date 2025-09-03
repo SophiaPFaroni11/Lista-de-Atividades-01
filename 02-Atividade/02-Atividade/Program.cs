@@ -1,0 +1,12 @@
+﻿// See https://aka.ms/new-console-template for more information
+int numero1;
+int numero2;
+int suporte;
+Console.WriteLine("Diite o valor de A:");
+numero1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Diite o valor de B:");
+numero2 = int.Parse(Console.ReadLine());
+suporte = numero1;
+numero1 = numero2;
+numero2 = suporte;
+Console.WriteLine($"O valor de A é:  {numero1} e o valor de B é: {numero2}");
