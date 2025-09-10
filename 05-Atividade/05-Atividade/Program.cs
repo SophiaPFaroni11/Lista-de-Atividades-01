@@ -17,3 +17,4 @@ Console.WriteLine($"Do total de {eleitores} eleitores: {validos * 100 / eleitore
 
 
 
+
