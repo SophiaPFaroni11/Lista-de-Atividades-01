@@ -1,12 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
-double numero;
-Console.WriteLine("Escreva um valor que direi se ele é negativo ou positivo (Sem ser 0).");
-numero = double.Parse(Console.ReadLine());
-if (numero > 0)
+int numero;
+Console.WriteLine("Escreva quantas maçãs foram compradas.");
+numero = int.Parse(Console.ReadLine());
+if (numero < 12)
 {
-    Console.WriteLine("Seu número é POSITIVO.");
+    Console.WriteLine($"cada maçã custou R$ 1,30. E sua compra custou: {1.3*numero}");
 }
 else
 {
-    Console.WriteLine("Seu número é NEGATIVO.");
+    Console.WriteLine($"cada maçã custou R$ 1,00. E sua compra custou: {1 * numero}");
 }
